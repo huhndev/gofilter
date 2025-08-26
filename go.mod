@@ -1,3 +1,3 @@
-module github.com/huhnsystems/gofilter
+module github.com/huhndev/gofilter
 
 go 1.24.0
