@@ -15,10 +15,6 @@
 > [!IMPORTANT]
 > `gofilter` is pre-alpha software.
 
-> [!NOTE]
-> In [CHANGELOG.md] you can follow recent changes.
-> [ROADMAP.md] shows our future plans.
-
 ***
 
 ### Usage
@@ -75,14 +71,6 @@ bandwidth min/avg/max/std-dev = 0.023/313.504/916.121/261.767 Mbps
 bandwidth min/avg/max/std-dev = 0.092/315.832/910.908/264.350 Mbps
 ```
 
-### Contributing
-
-See [CONTRIBUTING.md]
-
-### Security
-
-See [SECURITY.md]
-
 ### License
 
 The package may be used under the terms of the ISC License a copy of
@@ -92,13 +80,5 @@ Unless you explicitly state otherwise, any contribution submitted for inclusion
 in the work by you shall be licensed as above, without any additional terms or
 conditions.
 
-[ROADMAP.md]:
-https://github.com/huhnsystems/gofilter/blob/master/docs/ROADMAP.md
-[CHANGELOG.md]:
-https://github.com/huhnsystems/gofilter/blob/master/docs/CHANGELOG.md
-[CONTRIBUTING.md]:
-https://github.com/huhnsystems/gofilter/blob/master/docs/CONTRIBUTING.md
-[SECURITY.md]:
-https://github.com/huhnsystems/gofilter/blob/master/docs/SECURITY.md
-[LICENSE]: https://github.com/huhnsystems/gofilter/blob/master/LICENSE
+[LICENSE]: https://github.com/huhndev/gofilter/blob/master/LICENSE
 [divert(4)]: https://man.openbsd.org/divert.4
