@@ -2,20 +2,7 @@
   <code>gofilter</code> is a string filter for PF on OpenBSD using divert(4). 
 </p>
 
-#
-
-### Main Features
-
-- Filters packets based on strings
-- No noticeable degradation of latency
-- 30% of the original bandwidth available
-
-#
-
-> [!IMPORTANT]
-> `gofilter` is pre-alpha software.
-
-***
+---
 
 ### Usage
 
@@ -27,7 +14,7 @@ Usage of gofilter:
         divert socket listening port (default 700)
 ```
 
-`gofilter` makes use of the kernel packet diversion mechanism [divert(4)].
+`gofilter` makes use of the kernel packet diversion mechanism [divert(4)](https://man.openbsd.org/divert.4).
 Therefore, PF has to be configured accordingly. For example to filter inbound
 DNS traffic:
 
@@ -74,11 +61,8 @@ bandwidth min/avg/max/std-dev = 0.092/315.832/910.908/264.350 Mbps
 ### License
 
 The package may be used under the terms of the ISC License a copy of
-which may be found in the file [LICENSE].
+which may be found in the file [LICENSE](LICENSE).
 
 Unless you explicitly state otherwise, any contribution submitted for inclusion
 in the work by you shall be licensed as above, without any additional terms or
 conditions.
-
-[LICENSE]: https://github.com/huhndev/gofilter/blob/master/LICENSE
-[divert(4)]: https://man.openbsd.org/divert.4
